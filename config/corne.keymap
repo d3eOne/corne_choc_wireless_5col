@@ -100,10 +100,10 @@
 
         layer_3 {
             bindings = <
-  &none   &sys_reset  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-  &trans  &none       &none   &trans  &trans    &trans  &trans  &trans  &trans  &trans
-  &trans  &trans      &trans  &none   &none     &trans  &trans  &trans  &trans  &trans
-                      &trans  &trans  &trans    &trans  &trans  &none
+  &sys_reset  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+  &trans      &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+  &trans      &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+                      &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
