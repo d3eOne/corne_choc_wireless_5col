@@ -37,7 +37,10 @@
         M2: M2 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_press>, <&kp LEFT_CONTROL &kp LEFT_SHIFT &kp R>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_SHIFT &kp LEFT_CONTROL &kp R>,
+                <&macro_release>;
 
             label = "M2";
         };
@@ -47,7 +50,7 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&kp LEFT_CONTROL &kp LEFT_ALT &kp DELETE>,
+                <&kp LEFT_ALT &kp LEFT_CONTROL &kp DELETE>,
                 <&macro_release>;
 
             label = "M3";
