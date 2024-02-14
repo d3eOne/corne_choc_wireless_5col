@@ -43,6 +43,13 @@
             bindings = <&kp LC(LS(R))>;
             label = "M2";
         };
+
+        M4: M4 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(TAB)>;
+            label = "M4";
+        };
     };
 
     keymap {
@@ -75,7 +82,7 @@
             bindings = <
   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4      &kp N5               &kp NUMBER_6  &kp N7    &kp N8        &kp N9     &kp N0
   &kp TAB       &kp MINUS     &kp EQUAL     &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp LEFT      &kp DOWN  &kp UP_ARROW  &kp RIGHT  &kp SEMICOLON
-  &kp DEL       &M1           &M2           &trans            &trans               &trans        &trans    &trans        &trans     &trans
+  &kp DEL       &M1           &M2           &M4               &trans               &trans        &trans    &trans        &trans     &trans
                               &M3           &trans            &trans               &trans        &trans    &trans
             >;
         };
