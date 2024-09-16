@@ -100,7 +100,7 @@
             bindings = <
   &kp ESCAPE  &kp BACKSPACE  &trans     &trans     &trans    &kp KP_MULTIPLY  &kp N7        &kp N8        &kp N9        &kp KP_MINUS
   &kp TAB     &trans         &trans     &trans     &trans    &kp KP_DIVIDE    &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp KP_PLUS
-  &kp LC(A)   &kp LC(X)      &kp LC(C)  &kp LC(V)  &to 0     &kp KP_COMMA     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ENTER
+  &kp LC(A)   &kp LC(X)      &kp LC(C)  &kp LC(V)  &to 0     &kp COMMA        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ENTER
                              &trans     &kp LALT   &trans    &kp BACKSPACE    &kp N0        &kp PERIOD
             >;
         };
