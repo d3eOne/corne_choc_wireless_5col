@@ -97,6 +97,7 @@
         };
 
         Numpad_Layer {
+            label = "Numpad";
             bindings = <
   &kp ESCAPE  &kp BACKSPACE  &trans     &trans     &trans    &kp KP_MULTIPLY  &kp N7        &kp N8        &kp N9        &kp KP_MINUS
   &kp TAB     &trans         &trans     &trans     &trans    &kp KP_DIVIDE    &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp KP_PLUS
@@ -106,6 +107,7 @@
         };
 
         Reset_Layer {
+            label = "Reset";
             bindings = <
   &sys_reset   &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &sys_reset
   &bootloader  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &bootloader
